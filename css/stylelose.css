@@ -1,0 +1,69 @@
+
+body {
+  background-color: #111010;
+  background-image: url("/css/image/g-removebg.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainbox {
+  margin: auto;
+  height: 550px;
+  width: 550px;
+  position: relative;
+}
+
+.err {
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 11rem;
+  position:absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: white;
+}
+
+.err2 {
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 11rem;
+  position:absolute;
+  left: 68%;
+  top: 8%;
+}
+
+.msg {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.6rem;
+  position:absolute;
+  left: 16%;
+  top: 45%;
+  width: 75%;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.image {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}

@@ -1,0 +1,17 @@
+h1 {
+  font-size: 5rem;
+  text-size-adjust: flex;
+  text-align: center;
+  height: 9vh;
+  line-height: 9vh;
+  color: #fcedd8;
+  font-family: "Niconne", cursive;
+  font-weight: (500);
+  text-shadow: 5px 5px 0 #eb452b, 10px 10px 0 #efa032, 15px 15px 0 #46b59b,
+    20px 20px 0 #017e7f, 25px 25px 0 #052939, 30px 30px 0 #c11a2b;
+}
+
+body {
+  background-image: url("https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif") ;
+  background-size : cover;
+}

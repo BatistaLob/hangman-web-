@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIENVENUE SUR LE HANGMAN</title>
+    <link rel="stylesheet" href=/css/stylehangman.css>
+</head>
+<body>
+  <div class="left">
+  <h1>{{.Mystery}}</h1>
+  <h2>Il te reste {{.Try }} essais</h2>
+  <h3>Tu as utilisé : {{.Stockstring}}</h3>
+      <form action="/hangman" method="post" class="form-example">
+        <div class="form-example">
+          <label for="name"></label>
+          <input type="text" id="name" name="Letter" required autofocus>
+          <input class="buttom" type="submit" value="Envoyer">
+        </div>
+      </form>
+  </div> 
+      <div class="right">
+            <div  id="hangman-board" class="board">
+              <h4>Hangman-board</h4>
+              <img style="width: 90%; height: 80%;" src="/css/image/hangman-{{.Try}}.png" alt="hangman">
+      </div>
+</body>
+</html>
